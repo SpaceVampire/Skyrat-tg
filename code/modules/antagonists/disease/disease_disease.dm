@@ -6,6 +6,7 @@
 	mutable = FALSE
 	var/mob/camera/disease/overmind
 	bypasses_immunity = TRUE //SKYRAT EDIT
+	infectable_biotypes = MOB_ORGANIC|MOB_ROBOTIC //SKYRAT EDIT
 
 /datum/disease/advance/sentient_disease/New()
 	..()
